@@ -353,19 +353,19 @@ function App() {
                   <ul className="space-y-3 list-none p-0 m-0 text-sm text-slate-600 font-medium">
                     <li className="flex items-start gap-2">
                       <ChevronRight size={16} className="text-primary mt-1 shrink-0" />
-                      <span>Migrated leads, teams, and contacts dashboards from split-pane layouts into paginated TanStack Tables, optimizing backend aggregations to improve fetch speed by 35%.</span>
+                      <span>Migrated leads, teams, and contact dashboards to paginated TanStack Tables and optimized database aggregations, improving data fetch speeds by 35%.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <ChevronRight size={16} className="text-primary mt-1 shrink-0" />
-                      <span>Reduced AI layout creation time by 90% by building a single/multi-turn Gemini AI generator, optimizing system prompts, and structuring prompt contexts for layout generation.</span>
+                      <span>Reduced AI layout generation time by 90% by building a custom single/multi-turn Gemini generator and structuring prompt contexts for high-precision outputs.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <ChevronRight size={16} className="text-primary mt-1 shrink-0" />
-                      <span>Prevented credential session losses, keeping authentication routing errors at 0, by programming an Axios Interceptor-based refresh queue storing tokens in HttpOnly cookies.</span>
+                      <span>Prevented session losses and kept auth routing errors at 0 by programming Axios Interceptors with token refresh queues stored in secure HttpOnly cookies.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <ChevronRight size={16} className="text-primary mt-1 shrink-0" />
-                      <span>Reduced push notification delivery failures to 0 by deploying a Node.js VAPID web-push protocol and registering service worker PushManager subscription handlers on the client.</span>
+                      <span>Reduced push notification failures to 0 by deploying Node.js VAPID web-push protocols and registering client-side service worker subscription handlers.</span>
                     </li>
                   </ul>
                 </div>
